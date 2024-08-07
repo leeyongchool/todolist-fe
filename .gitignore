@@ -25,7 +25,6 @@ dist-ssr
 
 /dist
 
-yarn.lock
-.yarn/*
 .pnp.cjs
 .DS_Store
+install-state.gz
