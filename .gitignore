@@ -23,6 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
-.yarn
+/dist
+
+yarn.lock
+.yarn/*
 .pnp.cjs
 .DS_Store
