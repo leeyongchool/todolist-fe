@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
 import Root from './routes/root';
+import ErrorPage from "./pages/error/error-page";
+
 
 const container = document.getElementById('root');
 if(container){
@@ -10,6 +12,8 @@ if(container){
         {
             path: "/",
             element: <Root />,
+            errorElement: <ErrorPage />,
+
         }
     ]);
     const root = createRoot(container);
